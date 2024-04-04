@@ -34,17 +34,17 @@ void input()
 void LinearSearch()
 {
 	char ch;
-	int ctr;
+	int ctr;				//number of comparisons
 	int item;
 
 	do
 	{
-
-		cout << "\nEnter the element you want to search: ";
+		//accept the number to be searched
+		cout << "\nEnter the element you want to search: ";		
 		cin >> item;
 
 		ctr = 0;
-		i = 0;
+		i = 0;													
 		while (i < n)
 		{
 			ctr++;
