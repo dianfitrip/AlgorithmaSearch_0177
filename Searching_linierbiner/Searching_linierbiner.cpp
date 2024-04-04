@@ -45,6 +45,15 @@ void LinearSearch()
 
 		ctr = 0;
 		i = 0;
+		while (i < n)
+		{
+			ctr++;
+			if (arr[i] == item)
+			{
+				cout << "\n" << item << " found at position " << (i + 1) << endl;
+				break;
+			}
+		}
 	}
 }
 
