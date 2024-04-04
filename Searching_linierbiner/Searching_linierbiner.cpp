@@ -19,7 +19,7 @@ void input()
 
 	}
 
-
+	//accept array elements
 	cout << "\n---------------------\n";
 	cout << "Enter array elements \n";
 	cout << "---------------------\n";
